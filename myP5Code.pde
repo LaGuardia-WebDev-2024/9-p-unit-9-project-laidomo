@@ -13,15 +13,24 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("Click", 190, 200);
+    text("to Start", 183, 229); 
   }
-  
-};
+ if (answer == 2) {
+    text("Yes", 190, 220);
+  } 
+  if (answer == 3) {
+    text("No", 190, 220);
+  } 
+  if (answer == 4) {
+    text("Maybe", 180, 200);
+    text("Maybe Not", 170, 230);
+  }
 
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
+
 
 
 
