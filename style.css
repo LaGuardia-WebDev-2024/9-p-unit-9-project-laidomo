@@ -12,6 +12,9 @@ h1{
   color: white;
 }
 
+h3{
+  color:aliceblue
+}
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;

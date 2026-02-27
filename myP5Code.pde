@@ -13,8 +13,7 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("Click", 190, 200);
-    text("to Start", 183, 229); 
+    text(" ", 164, 200); 
   }
  if (answer == 2) {
     text("Yes", 190, 220);
@@ -26,9 +25,17 @@ draw = function(){
     text("Maybe", 180, 200);
     text("Maybe Not", 170, 230);
   }
+  if (answer == 5) {
+    text("ig bro", 185, 220);
+  }
+  if (answer == 6) {
+    text("Most Definetly", 164, 200);
+    text("Not suh.", 183, 229);
+  }
+}
 
 mouseClicked = function(){
-  answer = round(random(1, 5));
+  answer = round(random(1, 6));
 };
 
 
